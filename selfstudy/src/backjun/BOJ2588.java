@@ -2,7 +2,7 @@ package backjun;
 
 import java.util.Scanner;
 
-class Study01{
+class BOJ2588{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
