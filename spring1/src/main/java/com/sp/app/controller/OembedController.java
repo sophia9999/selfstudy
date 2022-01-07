@@ -96,8 +96,8 @@ public class OembedController {
 		model.put("host", host);
 		model.put("paramUrl", paramUrl);
 		paramUrl += "?format=json&url="+user_url; // json으로 받아서 뿌려줄예정
-		if(host.contains("instagram")) { // 인스타그램의 경우 facebook 에서 oembed read 기능에 대한 앱 검수를 통해 액세스 토큰을 발급받아야한다.
-			paramUrl = (String)providerMap.get(host)+"?url="+user_url+"&access_token=[앱ID]|[앱 클라이언트 토큰]";
+		if(host.contains("instagram")) {
+			paramUrl = (String)providerMap.get(host)+"?url="+user_url+"&access_token=622376832303347|ce24ead8e1d39af83e9aafcb11bd5812";
 		}
 		conn = (HttpURLConnection) new URL(paramUrl).openConnection();
 		BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
