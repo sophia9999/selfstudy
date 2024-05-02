@@ -12,9 +12,6 @@ class Solution:
         #string으로 형변환
         num_str = str(x)
         
-        #return할 기본값 설정
-        result = False
-        
         #문자열을 반으로 나누어 앞뒤비교
         length = len(num_str)
         for i in range(length // 2):
@@ -23,12 +20,3 @@ class Solution:
 
         #위 for문을 수행하면서 다르면 False를 리턴하므로 통과했으면 True 이다.
         return True
-
-
-        
-
-        
-        
-
-        
-        
