@@ -20,7 +20,6 @@ def solution(cards):
     if len(group_sizes) < 2:
         return 0
     return group_sizes[0] * group_sizes[1]
-    
-    
-    answer = 0
-    return answer
+
+#솔직히 문제자체를 이해를 못했음.. 로직보니까 이런거구나 싶었는데 문제를 이해하는게 넘 어려웠다 ㅠ__ㅠ.....
+#내일다시 츄라이
