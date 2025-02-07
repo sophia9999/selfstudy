@@ -1,9 +1,7 @@
 def solution(my_string):
-    isExist = set()
     answer = ''
     for char in my_string :
-        if char not in isExist :
+        if char not in answer :
             answer += char
-            isExist.add(char)
     
     return answer
