@@ -6,6 +6,4 @@ def solution(n):
             yaksu.add(i)
             yaksu.add(n // i)
             
-    answer = list(yaksu)
-    answer.sort()
-    return answer
+    return sorted(yaksu)
